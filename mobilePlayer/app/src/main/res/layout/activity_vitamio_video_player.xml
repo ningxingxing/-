@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/black"
+    >
+
+
+    <com.example.apple.mobileplayer.view.VitamioVideoView
+        android:id="@+id/vitamio_videoView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include layout="@layout/activity_media_controller" android:id="@+id/media_controller"/>
+
+    <include layout="@layout/ll_buffer" android:id="@+id/ll_buffer"/>
+
+    <include layout="@layout/ll_loading" android:id="@+id/ll_loading"/>
+
+</RelativeLayout>

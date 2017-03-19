@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:atguigu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/item_shopping_bg_selector"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/katong" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="21351561651"
+                android:textSize="18sp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#66000000" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="¥"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="100"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/bt_buy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_buy_selector"
+                    android:text="立即购买"
+                    android:textColor="@android:color/white" />
+
+
+            </RelativeLayout>
+
+            <com.example.apple.mobileplayer.view.NumberAddSubView
+                android:id="@+id/number_add_sub_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                atguigu:NumberAddSubBackgroind="@drawable/btn_add_sub_view_selector"
+                atguigu:NumberSubBackgroind="@drawable/btn_number_view_selector"
+                atguigu:NumberAddBackgroind="@drawable/btn_number_view_selector"
+                atguigu:maxValue="20"
+                atguigu:minValue="1"
+                atguigu:value="1">
+
+            </com.example.apple.mobileplayer.view.NumberAddSubView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/build/intermediates/res/merged/debug/raw/test_cbr.mp3",
+        "source": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/res/raw/test_cbr.mp3"
+    },
+    {
+        "merged": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/build/intermediates/res/merged/debug/raw/libarm.so",
+        "source": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/res/raw/libarm.so"
+    }
+]

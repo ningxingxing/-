@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.apple.mobileplayer.activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/iv_splash_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/xingixng" />
+
+    <LinearLayout
+        android:layout_below="@+id/iv_splash_icon"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       >
+
+
+        <ProgressBar
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:text="正在启动"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

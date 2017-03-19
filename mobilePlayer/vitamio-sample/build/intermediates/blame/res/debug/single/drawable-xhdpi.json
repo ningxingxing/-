@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/build/intermediates/res/merged/debug/drawable-xhdpi/mediacontroller_screen_fit.png",
+        "source": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/res/drawable-xhdpi/mediacontroller_screen_fit.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/build/intermediates/res/merged/debug/drawable-xhdpi/mediacontroller_sreen_size_100.png",
+        "source": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/res/drawable-xhdpi/mediacontroller_sreen_size_100.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/build/intermediates/res/merged/debug/drawable-xhdpi/mediacontroller_screen_size.png",
+        "source": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/res/drawable-xhdpi/mediacontroller_screen_size.png"
+    },
+    {
+        "merged": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/build/intermediates/res/merged/debug/drawable-xhdpi/mediacontroller_sreen_size_crop.png",
+        "source": "/Users/apple/Desktop/mobilePlayer/vitamio-sample/res/drawable-xhdpi/mediacontroller_sreen_size_crop.png"
+    }
+]
